@@ -16,15 +16,67 @@ body,html{min-height:100vh}
 body{display:flex;margin:0 auto;max-width:83vw;flex-wrap:wrap;flex-direction:column;justify-content:space-between}
 header{margin:10vh 0 0;padding-bottom:1em;border-bottom:5px solid #328c60}
 a img{border:0}
-main{display:flex;margin:0 auto;min-width:70vw;flex-wrap:wrap;flex-direction:column}
-h1{margin-top:.5em;margin-bottom:.5em;font-size:1.25em}
-p{margin:.5em 0}
-a{color:#36c;text-decoration:none}
-a:hover{text-decoration:underline}
+main {
+    background: #f8faf9; /* 浅绿背景 */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(50, 140, 96, 0.1); /* 绿色系阴影 */
+    padding: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main h1 {
+    font-size: 2.2rem;
+    color: #2d7353; /* 深于header绿色 */
+    line-height: 1.3;
+    border-bottom: 2px solid #e0efe8; /* 浅绿分隔线 */
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+main h1 em {
+    color: #4a9b78; /* 主绿色调 */
+    font-size: 1.1rem;
+}
+
+main p {
+    margin: 1.2rem 0;
+    color: #3a3a3a; /* 深灰保持可读性 */
+    line-height: 1.8;
+}
+
+main b {
+    color: #328c60; /* 使用header绿色 */
+    padding: 0.2rem 0.4rem;
+    background: #e8f5f0; /* 浅绿背景突出 */
+    border-radius: 4px;
+}
+
+a {
+    transition: all 0.2s ease;
+    border-bottom: 1px dashed rgba(54, 204, 204, 0.3); /* 蓝色虚线装饰 */
+    color:#36c;text-decoration:none;
+}
+a:hover {
+    color: #2a8a5c; /* 悬停绿色 */
+    text-decoration: none;
+    border-bottom-style: solid;
+}
 em,footer{color:#777;font-style:normal}
 footer{margin:0 0 10vh;padding-top:1em;border-top:1px solid #eaecf0;font-size:.9em}
 .footer-links a{margin-right:.5em;white-space:nowrap}
 footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex-direction:row;justify-content:flex-end}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    main h1 {
+        font-size: 1.8rem;
+    }
+}
     </style>
 </head>
 <header>
