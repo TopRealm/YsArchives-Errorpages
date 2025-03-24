@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="sourcecode" href="https://github.com/TopRealm/YsArchives-Errorpages" />
+    <link rel="copyright" href="https://creativecommons.org/licenses/by-sa/4.0/" />
+    <link rel="license" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>HTTP 504 网关超时 - 有兽档案馆，开放的有兽焉wiki</title>
+    <style>
+*{margin:0;padding:0}
+html{width:100%;background:#fff;color:#000;font-family:"Noto Serif","Source Serif","Noto Serif SC","Source Han Serif SC",Times New Roman,Times,STSong,SimSun,serif;line-height:1.75}
+body,html{min-height:100vh}
+body{display:flex;margin:0 auto;max-width:83vw;flex-wrap:wrap;flex-direction:column;justify-content:space-between}
+header{margin:10vh 0 0;padding-bottom:1em;border-bottom:5px solid #328c60}
+a img{border:0}
+main {
+    background: #f8faf9; /* 浅绿背景 */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(50, 140, 96, 0.1); /* 绿色系阴影 */
+    padding: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main h1 {
+    font-size: 2.2rem;
+    color: #2d7353; /* 深于header绿色 */
+    line-height: 1.3;
+    border-bottom: 2px solid #e0efe8; /* 浅绿分隔线 */
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+main h1 em {
+    color: #4a9b78; /* 主绿色调 */
+    font-size: 1.1rem;
+}
+
+main p {
+    margin: 1.2rem 0;
+    color: #3a3a3a; /* 深灰保持可读性 */
+    line-height: 1.8;
+}
+
+main b {
+    color: #328c60; /* 使用header绿色 */
+    padding: 0.2rem 0.4rem;
+    background: #e8f5f0; /* 浅绿背景突出 */
+    border-radius: 4px;
+}
+
+a {
+    transition: all 0.2s ease;
+    color:#36c;text-decoration:none;
+}
+
+main a{border-bottom: 1px dashed rgba(54, 204, 204, 0.3); /* 蓝色虚线装饰 */}
+
+a:hover {
+    color: #2a8a5c; /* 悬停绿色 */
+    text-decoration: none;
+    border-bottom-style: solid;
+}
+em,footer{color:#777;font-style:normal}
+footer{margin:0 0 10vh;padding-top:1em;border-top:1px solid #eaecf0;font-size:.9em}
+.footer-links a{margin-right:.5em;white-space:nowrap}
+footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex-direction:row;justify-content:flex-end}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    main h1 {
+        font-size: 1.8rem;
+    }
+}
+#event-id {
+    font-family: monospace;
+    color: #328c60;
+    padding: 0.2rem 0.4rem;
+    background: #e8f5f0;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+    </style>
+</head>
+<header>
+    <a href="https://youshou.wiki" title="有兽档案馆">
+        <img src="https://youshou.wiki/images/e/e1/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E7%BB%BF%E8%89%B2%E5%9B%BE%E4%B9%A6Logo.svg"
+            width="50" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
+        <img src="https://youshou.wiki/images/4/4f/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97.svg"
+            width="150" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
+    </a>
+</header>
+<main>
+    <h1>
+        网关超时<em>（HTTP 504）</em><br>Gateway Timeout
+    </h1>
+    <p>
+        很抱歉，上游服务器响应超时，您的请求暂时无法完成。<br>Sorry, the upstream server took too long to respond, and your request cannot be completed at this time.
+    </p>
+    <p>
+        若您有任何疑问，请联系QQ群：<b>643632328</b>。<br>Any inquires should be sent to <b>643632328</b>.
+    </p>
+    <p>
+        我们的技术团队正在处理此问题，请稍后<a href="javascript:window.location.reload();">刷新重试</a>，或返回<a href="/">首页</a>。<br>Our technical team is addressing this issue. Please <a href="javascript:window.location.reload();">refresh and try again later</a> or return to the <a href="/">home page</a>.
+    </p>
+    <p>
+        您本次请求的特征ID为：<b><span id="event-id">获取中...</span></b><br>Your request event ID: <b><span id="event-id-en">loading...</span></b>
+    </p>
+</main>
+<footer>
+    <div class="footer-copyright">
+        <p>© 2023 - 现在 有兽档案馆</p>
+        <p>
+            有兽档案馆原创文字、图形、图文组合，均是本网站运营者或其关联实体的标志或注册标志。<br>
+有兽档案馆内出现的类似"有兽焉®"、"有兽焉"Logo、分子互动"FENZ"Logo、"非人哉®"等，是分子互动的注册商标。其权利归北京分子互动文化传播有限公司（FENZ, Inc.）所有，其他商标如在本站内展现，商标权利归其权利人所有。
+        </p>
+    </div>
+    <div class="footer-links">
+        <a class="ysliblink ysliblink-about"
+            href="https://youshou.wiki/wiki/LIB:ABOUT" target="_blank">关于有兽档案馆</a>
+        <a class="ysliblink ysliblink-tos" href="https://youshou.wiki/wiki/LIB:TOS"
+            rel="noreferrer noopener" target="_blank">用户协议</a>
+        <a class="ysliblink ysliblink-pipp"
+            href="https://youshou.wiki/wiki/LIB:PIPP"
+            rel="noreferrer noopener" target="_blank">隐私保护</a>
+        <a class="source source-code" href="https://github.com/TopRealm/YsArchives-Errorpages" rel="noreferrer noopener"
+            target="_blank">错误页面源码地址（GNU ver.2）</a>
+        <a class="govlink govlink-icp" href="https://beian.miit.gov.cn/" rel="noreferrer noopener"
+            target="_blank">晋ICP备2023005192号</a>
+    </div>
+    <div class="footer-buttons">
+        <a href="https://youshou.wiki/" title="有兽档案馆授权协议" target="_blank" rel="noopener noreferrer"><img
+                alt="授权协议" width="88" height="31"
+                src="https://youshou.wiki/resources/assets/cc-by-sa-button.png" /></a>
+        <a href="https://waf-ce.chaitin.cn/" title="雷池WAF" target="_blank" rel="noopener noreferrer"><img
+                alt="SafeLine" width="88" height="31"
+                src="https://youshou.wiki/resources/assets/SafeLine%20logo.svg" /></a>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let htmlElement = document.getElementsByTagName("html")[0].nextSibling;
+        if (htmlElement) {
+            let eventIdMatch = htmlElement.data.match("event_id: ([a-z0-9]+) ");
+            if (eventIdMatch && eventIdMatch.length === 2) {
+                let eventId = eventIdMatch[1];
+                document.getElementById("event-id").innerText = eventId;
+                document.getElementById("event-id-en").innerText = eventId;
+            } else {
+                document.getElementById("event-id").innerText = "未能获取";
+                document.getElementById("event-id-en").innerText = "unavailable";
+            }
+        } else {
+            document.getElementById("event-id").innerText = "未能获取";
+            document.getElementById("event-id-en").innerText = "unavailable";
+        }
+    });
+</script>
+
+</html>
