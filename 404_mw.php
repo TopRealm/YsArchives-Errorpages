@@ -27,7 +27,7 @@ require_once __DIR__ . \DIRECTORY_SEPARATOR . '404_guessTarget.php';
 html{width:100%;background:#fff;color:#000;font-family:"Noto Serif","Source Serif","Noto Serif SC","Source Han Serif SC",Times New Roman,Times,STSong,SimSun,serif;line-height:1.75}
 body,html{min-height:100vh}
 body{display:flex;margin:0 auto;max-width:83vw;flex-wrap:wrap;flex-direction:column;justify-content:space-between}
-header{margin:10vh 0 2.5vh;padding-bottom:1em;border-bottom:5px solid #36c}
+header{margin:10vh 0 0;padding-bottom:1em;border-bottom:5px solid #328c60}
 header a{font-size:1.5em;font-weight:700;color:#000}
 header a:hover{text-decoration:none}
 a img{border:0;vertical-align:text-bottom;margin:0 5px}
