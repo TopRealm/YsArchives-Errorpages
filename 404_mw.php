@@ -56,9 +56,9 @@ footer .footer-buttons{display:flex;margin-top:.5em;gap:.5em;flex-wrap:wrap;flex
 <body>
     <header>
         <a href="https://youshou.wiki" title="有兽档案馆">
-            <img src="https://youshou.wiki/images/e/e1/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E7%BB%BF%E8%89%B2%E5%9B%BE%E4%B9%A6Logo.svg"
+            <img src="https://image.youshou.wiki/e/e1/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E7%BB%BF%E8%89%B2%E5%9B%BE%E4%B9%A6Logo.svg"
                 width="50" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
-            <img src="https://youshou.wiki/images/4/4f/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97.svg"
+            <img src="https://image.youshou.wiki/4/4f/%E6%9C%89%E5%85%BD%E6%A1%A3%E6%A1%88%E9%A6%86%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97.svg"
                 width="150" height="50" alt="有兽档案馆 - 开源的有兽焉wiki" />
         </a>
     </header>
