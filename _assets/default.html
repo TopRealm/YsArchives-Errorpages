@@ -135,6 +135,64 @@
 					font-size: 1.8rem;
 				}
 			}
+
+			@media (prefers-color-scheme: dark) {
+				html {
+					background: #121212;
+					color: #e0e0e0;
+				}
+				header {
+					border-bottom-color: #2d7353;
+				}
+				header a {
+					color: #e0e0e0;
+				}
+				main {
+					background: #1e1e1e;
+					box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+				}
+				main h1 {
+					color: #6bc29a;
+					border-bottom-color: #2d3833;
+				}
+				main h1 em {
+					color: #8fd4b0;
+				}
+				main p {
+					color: #cccccc;
+				}
+				main b {
+					color: #8fd4b0;
+					background: #2d3833;
+				}
+				a {
+					color: #66b3ff;
+				}
+				main a {
+					border-bottom-color: rgba(102, 179, 255, 0.3);
+				}
+				a:hover {
+					color: #6bc29a;
+				}
+				em, footer {
+					color: #aaa;
+				}
+				footer {
+					border-top-color: #333;
+				}
+				/* 针对黑色文字Logo的反色处理 */
+				header img[src*="%E6%96%87%E5%AD%97%E6%A0%87%E5%BF%97"] {
+					filter: brightness(0) invert(1);
+				}
+
+				/* Footer图片适配 */
+				footer .footer-buttons img[src*="cc-by-sa"] {
+					filter: brightness(0) invert(1);
+				}
+				footer .footer-buttons img[src*="SafeLine"] {
+					filter: invert(1) hue-rotate(180deg);
+				}
+			}
 		</style>
 	</head>
 	<body>
